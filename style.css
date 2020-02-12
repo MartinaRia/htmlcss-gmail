@@ -1,0 +1,107 @@
+body{
+  /*background*/
+  background: url(img/background.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* modifiche alt-body */
+  /*contenuto centrato*/
+#alt-body{
+  margin: auto;
+  width: 40%;
+  /*colore font*/
+  color: white;
+}
+
+/*header*/
+header{
+  margin: 10px 0px
+}
+
+header img{
+  height: 60px;
+  display: inline-block;
+}
+
+header h2 {
+  display: inline-block;
+  vertical-align: bottom;
+  font-weight: lighter;
+}
+
+/* 1° sezione - 1° riga*/
+#search{
+  padding: 10px 0px;
+  border-bottom: solid 1px white;
+  border-top: solid 1px white;
+  text-align: left;
+}
+
+#input-search{
+  width: 100px;
+}
+
+#button{
+  border-radius: 4px;
+}
+
+/* 1° sezione - 2° riga*/
+#unread-msg{
+  font-size: 22px;
+  margin: 20px 0px 6px 0px;
+}
+
+#trenta{
+  background: orange;
+  padding: 10px;
+  border-radius: 100%;
+}
+
+/* 2° sezione */
+#email-list{
+  padding: 5px 0px;
+  border-bottom: solid 1px white;
+}
+
+.oggetto::before{
+  content: "★";
+  margin: 0px 5px 0px 0px;
+}
+
+.email{
+  background: #bbbbbb;
+  border: solid 1px black;
+  padding: 2px 0px;
+}
+
+.email:hover {
+  background-color: #e5e5e5;
+}
+
+#due{
+  background: #e5e5e5;
+}
+
+.oggetto{
+  color: black;
+  font-weight: bold;
+}
+
+.testo{
+  color: grey;
+}
+
+/*footer*/
+footer{
+  text-align: center;
+}
+
+footer h2{
+  display: inline;
+}
+
+footer p{
+  display: inline-block;
+  font-style: italic;
+}
